@@ -1,2 +1,5 @@
 / Any data directory at the root of the project
 data/
+
+/ ignore useless files anyways
+.idea/copilot.data.migration.ask2agent.xml
