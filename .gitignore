@@ -3,3 +3,5 @@ data/
 
 / ignore useless files anyways
 .idea/copilot.data.migration.ask2agent.xml
+
+.env

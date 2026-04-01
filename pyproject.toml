@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matereview"
+version = "0.1.0"
+description = "A project for reviewing materials or literature"
+requires-python = ">=3.12"
+dependencies = [
+    "rispy",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "asreview-dory",
+    "pybliometrics"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
